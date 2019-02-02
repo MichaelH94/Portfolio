@@ -3,7 +3,6 @@
 /* Custom items */
 
 .buttons-section {
-    background-color: white;
     margin: auto;   
     display: flex;
     flex-direction: row;
@@ -16,7 +15,7 @@
     margin: 12px auto;
     display: block;
     align-content: center;
-    background-color: #003C7A;
+    background-color: #61B38E; 
     color: #fff;
     border-radius: 5px;
     font-weight: bold;
@@ -24,8 +23,9 @@
 }
 
 .buttons-section button:hover {
-    background-color: #001f3f;
+    background-color: #96D3B7; 
     opacity: 90%;
+    border: 2px solid black;
   }
   
   .dx {
@@ -35,7 +35,7 @@
   @media only screen and (max-width: 600px) {
     .buttons-section {
     position: absolute;
-    top: 88px;
+    top: 80px;
     left: 5%;
     right: 5%;
     }
