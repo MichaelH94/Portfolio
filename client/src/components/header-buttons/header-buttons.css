@@ -1,0 +1,43 @@
+/* Bootstrap items */
+
+/* Custom items */
+
+.buttons-section {
+    background-color: white;
+    margin: auto;   
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons-section button {
+    width: 146px;
+    height: 40px;
+    border: 2px solid black;
+    margin: 12px auto;
+    display: block;
+    align-content: center;
+    background-color: #003C7A;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+.buttons-section button:hover {
+    background-color: #001f3f;
+    opacity: 90%;
+  }
+  
+  .dx {
+      width: 3px;
+  } 
+  
+  @media only screen and (max-width: 600px) {
+    .buttons-section {
+    position: absolute;
+    top: 88px;
+    left: 5%;
+    right: 5%;
+    }
+
+}
