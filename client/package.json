@@ -23,7 +23,9 @@
     "not op_mini all"
   ],
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "terser": "^3.14.1"
+  },
   "author": "",
   "license": "ISC"
 }
