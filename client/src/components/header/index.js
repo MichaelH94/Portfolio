@@ -4,8 +4,18 @@ import './header.css';
 import HeaderButtons from '../header-buttons'
 
 class Header extends Component {
+    constructor() {
+        super()
+        this.buttonHandle = this.buttonHandle.bind(this)
+    }
+
+
+    buttonHandle(x) {
+        this.props.routeChange(x)
+    }
 
 render() {
+
     return <div>
        <nav className="Nav">
           <div className="Nav-menus">
@@ -14,7 +24,7 @@ render() {
                     Portfolio
                   </a>
               </div>
-              <HeaderButtons />
+              <HeaderButtons buttonHandle = {this.buttonHandle} />
           </div>
       </nav>
   </div>
