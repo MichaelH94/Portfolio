@@ -1,16 +1,11 @@
 /* Bootstrap items */
 
-.jumbotron {
-    background-color: black;
-    display: block;
-}
-
 /* Custom items */
 
 /* Styles for Header component */
 
 .Nav {
-    background-color: #AAAAAA;
+    background-color: #525252;
     border-bottom: 2px solid black;
     position: fixed;
     top: 0;
