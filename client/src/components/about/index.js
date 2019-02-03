@@ -37,9 +37,9 @@ class About extends Component {
             </p>
             </div>
             <div className="About-bottom">
-            <img src={img2} alt="Image" />
-            <img src={img1} alt="Image" />
-            <img src={img3} alt="Image" />
+            <img src={img2} alt="Twins" />
+            <img src={img1} alt="Graduation" />
+            <img src={img3} alt="Son & Daughter" />
             </div>
         </div>
     }

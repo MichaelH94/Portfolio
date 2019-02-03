@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "mjhportfolio",
   "version": "1.0.0",
   "private": true,
   "description": "React Profile",
@@ -15,6 +15,9 @@
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
   },
   "author": "Michael J Haggard",
   "license": "ISC",

@@ -33,9 +33,9 @@ class App extends Component {
       </div>
 
       <div className="main">
-      {this.state.redirectPath == "about" ? <About />  
-      : this.state.redirectPath == "blog" ? <Blog />
-      : this.state.redirectPath == "portfolio" ? <Portfolio /> : "" }
+      {this.state.redirectPath === "about" ? <About />  
+      : this.state.redirectPath === "blog" ? <Blog />
+      : this.state.redirectPath === "portfolio" ? <Portfolio /> : "" }
 
       </div>
  
