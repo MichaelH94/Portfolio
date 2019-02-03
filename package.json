@@ -1,7 +1,7 @@
 {
-  "name": "mern",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Mern Demo",
+  "description": "React Profile",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -12,7 +12,7 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "author": "",
+  "author": "Michael J Haggard",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
@@ -22,5 +22,17 @@
     "express": "^4.16.3",
     "if-env": "^1.0.4",
     "react-bootstrap": "^1.0.0-beta.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelH94/Portfolio.git"
+  },
+  "keywords": [
+    "react",
+    "portfolio"
+  ],
+  "bugs": {
+    "url": "https://github.com/MichaelH94/Portfolio/issues"
+  },
+  "homepage": "https://github.com/MichaelH94/Portfolio#readme"
 }
