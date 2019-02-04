@@ -1,0 +1,16 @@
+[
+    {
+        "name": "name",
+        "description": "Description",
+        "picture": "https://i.imgur.com/4S4B6Ne.png",
+        "demo": "https://aestheticize.herokuapp.com/",
+        "repo": "https://github.com/michaelh94/aestheticize"
+    },
+    {
+        "name": "Name #2",
+        "description": "Description #2!",
+        "picture": "https://i.imgur.com/4S4B6Ne.png",
+        "demo": "https://aestheticize.herokuapp.com/",
+        "repo": "https://github.com/michaelh94/aestheticize"
+    }
+]
