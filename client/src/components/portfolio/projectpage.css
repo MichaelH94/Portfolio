@@ -1,0 +1,90 @@
+.Project {
+    width: 80vh;
+    height: 90vh;
+    margin: auto;
+    color: white;
+    display: flex;   
+    flex-direction: column;
+}
+
+.Project-img {
+    left: 1; 
+    position: absolute;
+    padding: 4px;
+    padding-bottom: 18px;
+}
+
+.Project-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8%;
+}
+
+.Project-top {
+    width: 80%;
+    margin: auto;
+    padding-left: 115px;
+}
+
+.Name {
+    font-size: 60px;
+}
+
+.Project-subheaders {
+    font-size: 35px;
+}
+
+.Project-words {
+    margin: auto;
+    width: 100%;
+    height: 80%;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.ghlink {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .Project {
+      width: 37vh;
+      height: 60vh;
+      padding-top: 6px;
+    }
+    
+    .Project-img img {
+        width: 100px;
+        height: 100px;
+        padding-bottom: 10px;
+    }
+
+    .Project-top {
+        padding-left: 80px;
+        padding-top: 0px;
+    }
+    .Name {
+        font-size: 20px;
+        padding-left: 4px;
+    }
+
+    .Project-subheaders {
+        font-size: 15px;
+        padding-left: 4px;
+    }
+
+    .Project-words {
+        overflow-y: scroll;
+        height: 70%;
+        font-size: 15px;
+    }
+
+    .ghlink {
+        display: inherit;
+    }
+
+    .ghicon {
+        display: none;
+    }
+}

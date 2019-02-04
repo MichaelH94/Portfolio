@@ -1,16 +1,79 @@
 [
     {
-        "name": "name",
-        "description": "Description",
-        "picture": "https://i.imgur.com/4S4B6Ne.png",
+        "name": "Aestheticize",
+        "description": "Aestheticize is, in theory, a dynamically generated social media application designed around exploring one's tastes and comparing them to others. Aestheticize is a portmanteau of Aestheticcs and Synthesize - the goal is to generate user's profiles based on their interests, and match them with other similar users. The core concept behind the application is that common interests bring people together, and I believe there is a market for a social media driven by interests rather than material image. This was my final project for the KU Coding Bootcamp. It's a full MERN stack application that utilizes public APIs to generate user profiles.",
+        "picture": "https://i.imgur.com/3I6QeBr.jpg",
         "demo": "https://aestheticize.herokuapp.com/",
         "repo": "https://github.com/michaelh94/aestheticize"
     },
     {
-        "name": "Name #2",
-        "description": "Description #2!",
-        "picture": "https://i.imgur.com/4S4B6Ne.png",
-        "demo": "https://aestheticize.herokuapp.com/",
-        "repo": "https://github.com/michaelh94/aestheticize"
-    }
+        "name": "CatchAll",
+        "description": "Catch-All was the first group project I completed at the KU Coding Bootcamp. It's a simple web-based app that takes an artist's name via user input and returns the top 3 most similar artists using the last.fm API. Using the See More button, the user can get information about the artist including a bio, user tags, and the top 3 results for the artist on Discogs. The app is lightweight and can be added to easily. It was a group project, though I handled all of the JavaScript.",
+        "picture": "https://i.imgur.com/SImu3KL.jpg",
+        "demo": "https://michaelh94.github.io/CatchAll/",
+        "repo": "https://github.com/michaelh94/catchall"
+    },
+    {
+        "name": "WiredIn",
+        "description": "WiredIn was the second project I worked on at the KU Coding Bootcamp. Unfortunately, this group project is mostly a proof of concept rather than a functional app. I've chosen to showcase it regardless, as, despite being unfinished, it is a showcase of teamwork. WiredIn, in concept, is a social media for gamers. The idea stemmed from book clubs - people bond over how many books they have to read, so why not bond over how many video games you have to play? The site can be demoed, but it lacks most functions.",
+        "picture": "https://i.imgur.com/BlQWBJZ.png",
+        "demo": "https://wiredin.herokuapp.com/",
+        "repo": "https://github.com/MichaelH94/Project-2"
+    },
+    {
+        "name": "NYT Scraper",
+        "description": "This wsas an assignment for the KU Coding Bootcamp. This is a web based app built with Bootstrap for styling, and Node, Express and Handlebars for rendering. It scrapes the New York Times World page for headlines and allows you to save and leave comments all on one page. Usage is fairly simple. The Scrape button populates the database, which is then rendered on to the page via handlebars. The saved button will render everything you have saved. In order to save an article, simply press save article under the headline. You're also able to leave a comment on each article. These comments are more like notes functionally, and can be edited at will. Click on the add comment button to start adding comments.",
+        "picture": "https://i.imgur.com/Jh9GUZb.png",
+        "demo": "http://mjh-scraper.herokuapp.com/",
+        "repo": "https://github.com/MichaelH94/NewsScraper"
+    },
+    {
+        "name": "Eat-Da-Burger!",
+        "description": "This was an assignment for the KU Coding Bootcamp. Eat-Da-Burger! is a simple database and DOM manipulation application that utilizes Node, Express and Handlebars to manipulate a MySQL database and a webpage styled through Bootstrap. The premise is simple: click the green burgers to eat them! They're not removed from the database, simply marked as devoured and moved to the other column. Below both colums is a form to enter a new burger for you to eat. Simple, but demonstrates the power of Express and Handlebars.",
+        "picture": "https://i.imgur.com/4z1bnAf.png",
+        "demo": "http://mjh-burger.herokuapp.com/",
+        "repo": "https://github.com/michaelh94/burger-app"
+    },
+    {
+        "name": "Friend Finder",
+        "description": "This was an assignment for the KU Coding Bootcamp. This is a Node & Express based social media app that compares the user's survey answers to friends in the database and returns the best match. It's a simple Express demo that involves API manipulation.",
+        "picture": "https://i.imgur.com/5NrGxLu.png",
+        "demo": "https://mjh-friend-finder.herokuapp.com/",
+        "repo": "https://github.com/michaelh94/friendfinder"
+    },
+    {
+        "name": "Bamazon",
+        "description": "This was an assignment for the KU Coding Bootcamp. Welcome to Bamazon, the (not-so) future of shopping. Bamazon is a simple CLI based app that utilizes Node.js to manipulate a MySQL database. This deployment has two apps: one for customers, the other for managers. Both utilize the mysql, inquirer, and cli-table Node packages. The Customer app is simple: it prints a table to the console and allows the customer to select a product by id, as well as the amount they wish to purchase. The manager app has more functionality: it allows the manager to view the Bamazon inventory, view which items Bamazon is low on, order products to be restocked, or add new products to the Bamazon inventory.",
+        "picture": "https://i.imgur.com/NdFyKpE.png",
+        "demo": false,
+        "repo": "https://github.com/michaelh94/Bamazon"
+    },
+    {
+        "name": "LIRI",
+        "description": "This was an assignment for KU Coding Bootcamp. LIRI is a simple Node based bot that currently offers four functions: spotify-this-song, concert-this, movie-this, do-what-it-says. Each of these commands will search a separate API for the user's input. spotify-this-song will search Spotify for a track, concert-this will search BandsInTown for an artist's upcoming tour date, and movie-this will search OMDB for a movie. All of these functions were created in JavaScript. The Node packages used are: request, node-spotify-api, and moment. The default Node function fs was also used. In order to recreate LIRI's functionality, you must provide your own Spotify api using your own .env file.",
+        "picture": "https://i.imgur.com/ZTvm34J.png",
+        "demo": false,
+        "repo": "https://github.com/MichaelH94/LIRI-Bot"
+    },
+    {
+        "name": "",
+        "description": "",
+        "picture": "",
+        "demo": "",
+        "repo": ""
+    },
+    {
+        "name": "",
+        "description": "",
+        "picture": "",
+        "demo": "",
+        "repo": ""
+    },
+    {
+        "name": "",
+        "description": "",
+        "picture": "",
+        "demo": "",
+        "repo": ""
+    }   
 ]

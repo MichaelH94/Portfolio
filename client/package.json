@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "description": "Mern Demo",
+  "description": "Michael Haggard's Portfolio",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
