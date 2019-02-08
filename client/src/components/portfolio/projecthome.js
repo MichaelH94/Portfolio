@@ -21,10 +21,11 @@ class ProjectHome extends Component {
                     </ul>
             </ul>
 
+            <h5>While not formal education, I have plenty of hours of independent study. I will update this when I complete the courses I'm currently working through.</h5>
 
             <h1>Skills - Technologies</h1>
             <h5>I specialize in the MERN stack and general JavaScript work.</h5>
-            <h5>Here are a list of relevant programming technologies I consider myself skilled in:</h5>
+            <h5>Here are a list of relevant programming related technologies I consider myself skilled in:</h5>
             <ul>
                 <li>JavaScript</li>
                 <li>React</li>
@@ -37,10 +38,11 @@ class ProjectHome extends Component {
                 <li>jQuery</li>
                 <li>Git</li>
             </ul>
-            <h5>Other programming technologies I have experience with to some degree:</h5>
+            <h5>Other programming related technologies I have experience with to some degree:</h5>
             <ul>
                 <li>Ruby on Rails</li>
                 <li>Java</li>
+                <li>Android App Development</li>
                 <li>C</li>
                 <li>Visual Basic</li>
                 <li>UNIX</li>

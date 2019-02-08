@@ -48,10 +48,10 @@ class Portfolio extends Component {
         <div className="Sidebar">
         <Button onClick={() => this.portfolioChange("home")}>Portfolio Home</Button>
         <Button onClick={() => this.portfolioChange(0)}>Aestheticize</Button>
-        <Button onClick={() => this.portfolioChange(1)}>CatchAll</Button>
+        <Button onClick={() => this.portfolioChange(1)}>Catch-All</Button>
         <Button onClick={() => this.portfolioChange(2)}>WiredIn</Button>
         <Button onClick={() => this.portfolioChange(3)}>NYT Scraper</Button>
-        <Button onClick={() => this.portfolioChange(4)}>Eat-Da-Burger!</Button>
+        <Button onClick={() => this.portfolioChange(4)}>EatDaBurger!</Button>
         <Button onClick={() => this.portfolioChange(5)}>Friend Finder</Button>
         <Button onClick={() => this.portfolioChange(6)}>Bamazon</Button>
         <Button onClick={() => this.portfolioChange(7)}>LIRI</Button>

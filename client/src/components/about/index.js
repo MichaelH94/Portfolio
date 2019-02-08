@@ -22,10 +22,10 @@ class About extends Component {
             I'm a 24 year old independent programmer based out of Kansas. 
             I have countless hours of independent study, an Associate's in Computer Science 
             from Northern Oklahoma College, 
-            and have been through a rigorous Coding Bootcamp at the University of Kansas. 
-            As a developer, I'm driven by challenge over everything. 
-            I value hard work and constant learning over everything else. I believe in pushing my coding skills to the limit to achieve the results I need. 
-            I'm primarily a web developer, but I have experience in a variety of languages and applications - from business to video games.
+            and have been through a rigorous Full Stack Web Development Bootcamp at the University of Kansas. 
+            As a developer, I'm driven by challenge over everything.
+            I believe in pushing my coding skills to the limit to achieve the results I need, and to never stop learning new ideas.
+            I'm primarily a web and app developer, but I have experience in a variety of languages and applications - from business to video games.
             </p>
             <br />
             <p>

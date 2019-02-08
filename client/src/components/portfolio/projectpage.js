@@ -3,9 +3,6 @@ import './projectpage.css';
 import github from '../footer/github.png'
 
 class ProjectPage extends Component {
-    constructor(props) {
-        super(props)
-    }
   
     render() {
         let name = this.props.name;

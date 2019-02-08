@@ -29,7 +29,7 @@
     },
     {
         "name": "Eat-Da-Burger!",
-        "description": "This was an assignment for the KU Coding Bootcamp. Eat-Da-Burger! is a simple database and DOM manipulation application that utilizes Node, Express and Handlebars to manipulate a MySQL database and a webpage styled through Bootstrap. The premise is simple: click the green burgers to eat them! They're not removed from the database, simply marked as devoured and moved to the other column. Below both colums is a form to enter a new burger for you to eat. Simple, but demonstrates the power of Express and Handlebars.",
+        "description": "This was an assignment for the KU Coding Bootcamp. Eat-Da-Burger! is a simple database and DOM manipulation application that utilizes Node, Express and Handlebars to manipulate a MySQL database and a webpage styled through Bootstrap. The premise is simple: click the green burgers to eat them! They're not removed from the database, simply marked as devoured and moved to the other column. Below both columns is a form to enter a new burger for you to eat. Simple, but demonstrates the power of Express and Handlebars.",
         "picture": "https://i.imgur.com/4z1bnAf.png",
         "demo": "http://mjh-burger.herokuapp.com/",
         "repo": "https://github.com/michaelh94/burger-app"
