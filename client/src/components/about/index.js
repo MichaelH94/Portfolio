@@ -11,12 +11,14 @@ class About extends Component {
             <div className="About-avi">
             <img src={avatar} alt="Avatar" />
             </div>
+
             <div className="About-top">
                 <div className="Name">Michael Haggard </div>
                 <div className="About-subheaders"> 
                 Full Stack Web Developer <br />
                 Kansas City Area </div>
             </div>
+
             <div className="About-words">
             <p>
             I'm a 24 year old independent programmer based out of Kansas. 
@@ -36,11 +38,13 @@ class About extends Component {
             cartography and worldbuilding, and, as standard among programmers, I enjoy video games.
             </p>
             </div>
+
             <div className="About-bottom">
             <img src={img2} alt="Twins" />
             <img src={img1} alt="Graduation" />
             <img src={img3} alt="Son & Daughter" />
             </div>
+            
         </div>
     }
 }
