@@ -48,6 +48,18 @@
    text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
 }
 
+.btn[type="js"] {
+    color: #FF851B;
+}
+
+.btn[type="j"]{
+    color: #2ECC40;
+}
+
+.btn[type="home"] {
+    color: #FFEC77;
+}
+
 
 @media only screen and (max-width: 768px) {
         .Portfolio {
@@ -76,5 +88,8 @@
         }
         h1 {
             font-size: 25px;
+        }
+        .colorguide {
+            font-size: 12px;
         }
 }

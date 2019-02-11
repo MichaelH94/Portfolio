@@ -4,7 +4,6 @@ import React, { Component } from "react";
 class ProjectHome extends Component {
     render() {
         return <div>
-
             <h1>Education</h1>
             <ul>
                 <li>University of Kansas (2018-2019)</li>
@@ -41,8 +40,8 @@ class ProjectHome extends Component {
             <h5>Other programming related technologies I have experience with to some degree:</h5>
             <ul>
                 <li>Ruby on Rails</li>
-                <li>Java</li>
-                <li>Android App Development</li>
+                <li>Java (CURRENTLY WORKING ON)</li>
+                <li>Android App Development (CURRENTLY WORKING ON)</li>
                 <li>C</li>
                 <li>Visual Basic</li>
                 <li>UNIX</li>

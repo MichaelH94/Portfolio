@@ -15,6 +15,7 @@ class Portfolio extends Component {
             projectPicture: "",
             projectDemo: "",
             projectRepo: "",
+            projectLang: "",
             isHome: true
         }
         this.portfolioChange = this.portfolioChange.bind(this)
@@ -33,28 +34,30 @@ class Portfolio extends Component {
                 projectDesc: data.description,
                 projectPicture: data.picture,
                 projectDemo: data.demo,
-                projectRepo: data.repo
+                projectRepo: data.repo,
+                projectLang: data.lang
             })
         }
     }
-
+    
     render() {
         return( <div className="Portfolio">
         <div className="Project">
         {this.state.isHome ? <ProjectHome />
         : <ProjectPage name={this.state.projectName} description={this.state.projectDesc}
-            picture={this.state.projectPicture} demo={this.state.projectDemo} repo={this.state.projectRepo} /> }
+            picture={this.state.projectPicture} demo={this.state.projectDemo} repo={this.state.projectRepo} lang={this.state.projectLang} /> }
         </div>
         <div className="Sidebar">
-        <Button onClick={() => this.portfolioChange("home")}>Portfolio Home</Button>
-        <Button onClick={() => this.portfolioChange(0)}>Aestheticize</Button>
-        <Button onClick={() => this.portfolioChange(1)}>Catch-All</Button>
-        <Button onClick={() => this.portfolioChange(2)}>WiredIn</Button>
-        <Button onClick={() => this.portfolioChange(3)}>NYT Scraper</Button>
-        <Button onClick={() => this.portfolioChange(4)}>EatDaBurger!</Button>
-        <Button onClick={() => this.portfolioChange(5)}>Friend Finder</Button>
-        <Button onClick={() => this.portfolioChange(6)}>Bamazon</Button>
-        <Button onClick={() => this.portfolioChange(7)}>LIRI</Button>
+        <Button type="home" onClick={() => this.portfolioChange("home")}>Portfolio Home</Button>
+        <Button type="js" onClick={() => this.portfolioChange(0)}>Aestheticize</Button>
+        <Button type="js" onClick={() => this.portfolioChange(1)}>Catch-All</Button>
+        <Button type="js" onClick={() => this.portfolioChange(2)}>WiredIn</Button>
+        <Button type="js" onClick={() => this.portfolioChange(3)}>NYT Scraper</Button>
+        <Button type="js" onClick={() => this.portfolioChange(4)}>EatDaBurger!</Button>
+        <Button type="js" onClick={() => this.portfolioChange(5)}>Friend Finder</Button>
+        <Button type="js" onClick={() => this.portfolioChange(6)}>Bamazon</Button>
+        <Button type="js" onClick={() => this.portfolioChange(7)}>LIRI</Button>
+        <Button type="j" onClick={() => this.portfolioChange(8)}>Connect 3</Button>
         </div>
         
         </div>

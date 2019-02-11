@@ -10,6 +10,7 @@ class ProjectPage extends Component {
         let pic = this.props.picture;
         let demo = this.props.demo;
         let repo = this.props.repo;
+        let lang = this.props.lang;
 
         return ( 
             <div className="Project">
@@ -19,6 +20,7 @@ class ProjectPage extends Component {
             <div className="Project-top">
                 <div className="Name">{name} <a href={repo} className="ghicon"><img src={github} alt="Github"/></a></div>
                 <div className="Project-subheaders"> 
+                {lang} <br />
                 {demo ? <a href={demo}>Demo</a> : "Demo unavailable"} 
                 <a href={repo} className="ghlink">Github</a></div>
             </div>
