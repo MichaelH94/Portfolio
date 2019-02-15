@@ -6,12 +6,22 @@ import './footer.css';
 
 
 class Footer extends Component {
+
+    constructor() {
+        super() 
+        this.contactHandle = this.contactHandle.bind(this)
+    }
+
+    contactHandle(x) {
+        this.props.routeChange(x);
+    }
+
     render() {
         return (
             <div className="appFooter">
               <div className="footerIcons">
 
-               <img src={mail} alt="Contact" />
+               <img src={mail} alt="Contact" onClick={() => this.contactHandle("contact")} />
 
                <div className="dx"></div>
 

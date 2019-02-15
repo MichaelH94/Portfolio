@@ -4,6 +4,7 @@ import Footer from './components/footer';
 import About from './components/about';
 import Blog from './components/blog';
 import Portfolio from './components/portfolio';
+import Contact from './components/contact';
 import "./App.css";
 
 class App extends Component {
@@ -35,14 +36,16 @@ class App extends Component {
       <div className="main">
       {this.state.redirectPath === "about" ? <About />  
       : this.state.redirectPath === "blog" ? <Blog />
-      : this.state.redirectPath === "portfolio" ? <Portfolio /> : "" }
+      : this.state.redirectPath === "portfolio" ? <Portfolio /> : 
+        this.state.redirectPath === "contact" ? <Contact /> : "" }
 
       </div>
  
-      <Footer />
+      <Footer routeChange = {this.routeChange} />
       </div>
     );
   }
 }
 
 export default App;
+
