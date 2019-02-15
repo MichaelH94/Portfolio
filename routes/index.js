@@ -7,7 +7,7 @@ var transport = {
   host: 'smtp.gmail.com',
   auth: {
     type: "OAuth2",
-    user: config.USER,
+    user: config.email,
     clientId: config.id,
     clientSecret: 'XxxxxXXxX0xxxxxxxx0XXxX0',
     refreshToken: '1/XXxXxsss-xxxXXXXXxXxx0XXXxxXXx0x00xxx',
@@ -35,7 +35,7 @@ router.post('/send', (req, res, next) => {
 
   var mail = {
     from: name,
-    to: 'michaelhaggard94@gmail.com',  //Change to email address that you want to receive messages on
+    to: 'michaelhaggard94@gmail.com',  
     subject: 'New Message from Contact Form',
     text: content
   }
