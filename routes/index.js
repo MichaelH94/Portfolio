@@ -5,16 +5,10 @@ const config = require('../config/config');
 
 var transport = {
   host: 'smtp.gmail.com',
+  secure: false,
   auth: {
-    type: "OAuth2",
-    secure: false,
     user: config.email,
-    clientId: config.id,
-    clientSecret: 'XxxxxXXxX0xxxxxxxx0XXxX0',
-    refreshToken: '1/XXxXxsss-xxxXXXXXxXxx0XXXxxXXx0x00xxx',
-    accessToken: 'ya29.Xx_XX0xxxxx-xX0X0XxXXxXxXXXxX0x',
-    expires: 1484314697598
-
+    pass: config.pass
   }
 }
 
