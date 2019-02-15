@@ -11,7 +11,7 @@ class Contact extends Component {
         const message = document.getElementById('message').value;
         axios({
             method: "POST", 
-            url:"http://localhost:3000/send", 
+            url:"http://mjh-portfolio.herokuapp.com/send", 
             data: {
                 name: name,   
                 email: email,  
