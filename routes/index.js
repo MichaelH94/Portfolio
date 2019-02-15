@@ -6,6 +6,7 @@ const config = require('../config/config');
 var transport = {
   host: 'smtp.gmail.com',
   auth: {
+    type: "login",
     user: config.USER,
     pass: config.PASS
   }
