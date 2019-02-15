@@ -7,6 +7,7 @@ var transport = {
   host: 'smtp.gmail.com',
   auth: {
     type: "OAuth2",
+    secure: false,
     user: config.email,
     clientId: config.id,
     clientSecret: 'XxxxxXXxX0xxxxxxxx0XXxX0',
