@@ -72,11 +72,12 @@
         "lang": "Java / Android"
     },
     {
-        "name": "",
-        "description": "",
-        "picture": "",
-        "demo": "",
-        "repo": ""
+        "name": "Basic Phrases",
+        "description": "Quite a simple Android app that demonstrates audio and single-function capabilities. Simply click on a button and it'll play a voice clip with the text, but in French. Nothing truly revolutionary, of course, but a nice little app nonetheless. Demo is available in the form of a Google Drive Mp4 File.",
+        "picture": "https://i.imgur.com/7xLwk0u.png",
+        "demo": "https://drive.google.com/file/d/1CLzC0gN3wThOtYSLMMnYjpofLBmDEvMN",
+        "repo": "https://github.com/MichaelH94/BasicPhrases",
+        "lang": "Java / Android"
     },
     {
         "name": "",

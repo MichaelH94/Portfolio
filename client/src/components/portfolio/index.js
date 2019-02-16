@@ -58,6 +58,7 @@ class Portfolio extends Component {
         <Button type="js" onClick={() => this.portfolioChange(6)}>Bamazon</Button>
         <Button type="js" onClick={() => this.portfolioChange(7)}>LIRI</Button>
         <Button type="j" onClick={() => this.portfolioChange(8)}>Connect 3</Button>
+        <Button type="j" onClick={() => this.portfolioChange(9)}>Basic Phrases</Button>
         </div>
         
         </div>
