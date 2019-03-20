@@ -88,12 +88,12 @@
         "lang": "Java / Android"
     },
     {
-        "name": "",
-        "description": "",
-        "picture": "",
-        "demo": "",
-        "repo": "",
-        "lang": ""
+        "name": "zxcvBot",
+        "description": "zxcvBot is a custom Discord bot that I use on my own, personal server. For a full list of features, check the Github. It's coded completely in Javascript and uses a SQL database for its various functions. The source code is fully public but will require your own configuration to work, of course.",
+        "picture": "https://i.imgur.com/uRfagxV.png",
+        "demo": false,
+        "repo": "https://github.com/MichaelH94/zxcvBot",
+        "lang": "JavaScript / Node Application"
     },   
     {
         "name": "",
