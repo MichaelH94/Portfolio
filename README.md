@@ -6,17 +6,17 @@ This is a single page React, Express & Node based personal site and portfolio. I
 
 ### Desktop Examples:
 
-![About](https://i.imgur.com/5mmjp0s.jpg)
+![About](https://i.imgur.com/Pixwd3I.png)
 
-![Portfolio Home](https://i.imgur.com/Qluj0IT.png)
+![Portfolio Home](https://i.imgur.com/XaZ7nUQ.png)
 
-![Portfolio Example](https://i.imgur.com/HMnm8DY.png)
+![Portfolio Example](https://i.imgur.com/PMQFE2y.gif)
 
 ### Mobile Examples:
 
-![About](https://i.imgur.com/Hpk9l2J.png)
+![About](https://i.imgur.com/HcF2DQw.png)
 
-![Portfolio Home](https://i.imgur.com/amHmROl.png)
+![Portfolio Home](https://i.imgur.com/i5Tdvn7.png)
 
-![Portfolio Example](https://i.imgur.com/IKACZ7C.png)
+![Portfolio Example](https://i.imgur.com/HYdyDaj.gif)
 
