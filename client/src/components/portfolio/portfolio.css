@@ -60,6 +60,15 @@
     color: #FFEC77;
 }
 
+.Portfolio .courseNum {
+    color: #FF851B;
+    display: inline;
+}
+
+.Portfolio .courses {
+    color: #39CCCC;
+    display: inline;
+}
 
 @media only screen and (max-width: 768px) {
         .Portfolio {
