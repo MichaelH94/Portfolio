@@ -21,7 +21,7 @@ class About extends Component {
 
             <div className="About-words">
             <p>
-            I'm a 24 year old independent programmer based out of Kansas. 
+            I'm a 25 year old independent programmer based out of Eastern Kansas. 
             I have countless hours of independent study, an Associate's in Computer Science 
             from Northern Oklahoma College, 
             and have been through a rigorous Full Stack Web Development Bootcamp at the University of Kansas. 

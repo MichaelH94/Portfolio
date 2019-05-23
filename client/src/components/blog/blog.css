@@ -2,8 +2,9 @@
     width: 80vh;
     height: 90vh;
     margin: auto;
+    padding-left: 10px;
     color: white;
-    display: flex;
+    display: inline-block;
     font-size: 35px;
 }
 
