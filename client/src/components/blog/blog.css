@@ -2,10 +2,10 @@
     width: 80vh;
     height: 90vh;
     margin: auto;
-    padding-left: 10px;
     color: white;
-    display: inline-block;
-    font-size: 35px;
+    display: flex;   
+    flex-direction: column;
+    font-size: 30px;
 }
 
 .Blog a {

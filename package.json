@@ -27,7 +27,7 @@
     "terser": "3.14.1"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
     "nodemailer": "^5.1.1",
