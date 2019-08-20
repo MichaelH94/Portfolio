@@ -30,6 +30,7 @@
     "axios": "^0.19.0",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
+    "lodash": "^4.17.15",
     "nodemailer": "^5.1.1",
     "react-bootstrap": "^1.0.0-beta.5"
   },
