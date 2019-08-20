@@ -21,8 +21,8 @@ class ProjectHome extends Component {
             </ul>
 
             <h5>While not formal education, I have plenty of hours of independent study. 
-            I've currently completed over <div class="courseNum">20</div> hours of independent study in <div class="courses"> JavaScript and Android development</div> on 
-            <a href="https://www.udemy.com/user/michael-haggard-5/">Udemy</a>.</h5>
+            I've currently completed over <div class="courseNum">20</div> hours of independent study in <div class="courses"> JavaScript and Android development</div> on
+            <a href="https://www.udemy.com/user/michael-haggard-5/"> Udemy</a>.</h5>
 
             <h1>Skills - Technologies</h1>
             <h5>I specialize in the MERN stack and general JavaScript work.</h5>
