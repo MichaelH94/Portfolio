@@ -35,8 +35,8 @@ class About extends Component {
             I'm also married to a beautiful woman and enjoying my life in small-town America. 
             Most of my free time is spent with my children, but my other hobbies include a passionate 
             love for music, creative writing, an enjoyment of history, 
-            cartography and worldbuilding, and, as standard among programmers, I enjoy video games. Recently I've been expanding my skillset beyond programming, and in the future I'd like to combine my 
-            passion for code with my newfound passion of preparedness.
+            cartography and worldbuilding, and, as standard among programmers, I enjoy video games. <br />
+            In 2020, I plan on taking my coding skills to the next level and push myself further than I ever could before.
             </p>
             </div>
 
