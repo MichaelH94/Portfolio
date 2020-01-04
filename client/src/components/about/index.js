@@ -27,7 +27,8 @@ class About extends Component {
             and have been through a rigorous Full Stack Web Development Bootcamp at the University of Kansas. 
             As a developer, I'm driven by challenge over everything.
             I believe in pushing my coding skills to the limit to achieve the results I need, and to never stop learning new ideas.
-            I'm primarily a web and app developer, but I have experience in a variety of languages and applications - from business to video games.
+            I have experience in a variety of languages and applications - from business to video games, though I consider myself primarily a web and app developer.
+            Right now, I'm mostly focused on JavaScript and Java (specifically Android development) but hope to expand my language portfolio greatly in the future.
             </p>
             <br />
             <p>
@@ -41,9 +42,9 @@ class About extends Component {
             </div>
 
             <div className="About-bottom">
-            <img src={img2} alt="Twins" />
+            <img src={img2} alt="Oldest Son & Daughter" />
             <img src={img1} alt="Graduation" />
-            <img src={img3} alt="Sons & Daughter" />
+            <img src={img3} alt="All 4 Childrenr" />
             </div>
             
         </div>
