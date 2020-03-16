@@ -34,7 +34,7 @@ class Footer extends Component {
                <img src={lilogo} alt="LinkedIn" />
                </a>
                </div>
-               © Michael Haggard 2019
+               © Michael Haggard 2020
             </div>
         )
     }
