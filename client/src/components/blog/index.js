@@ -10,7 +10,12 @@ class Blog extends Component {
         on expanding my content a lot more in the future, so check it out if you're interested.
         <br/>
         <br/>
-        I also have a RateYourMusic page <a href="https://rateyourmusic.com/~zxcv1337x">here</a>, if you'd like to read my thoughts on music, including which albums I've been listening to.</p>
+        I also have a RateYourMusic page <a href="https://rateyourmusic.com/~zxcv1337x">here</a>, if you'd like to read my thoughts on music, including which albums I've been listening to.
+        <br/>
+        <br/>
+        Due to 2020 being a turbulent year, I haven't really blogged about anything all year. I've left this page up incase I get back around to it.
+        </p>
+
         </div>
     }
 }
