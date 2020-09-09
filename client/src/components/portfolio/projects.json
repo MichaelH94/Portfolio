@@ -98,8 +98,8 @@
     {
         "name": "MikeHub",
         "description": "",
-        "picture": "https://i.imgur.com/g0vFlw0.png",
-        "demo": false,
+        "picture": "https://i.imgur.com/wg8kGfu.png",
+        "demo": "https://mikehub.herokuapp.com/",
         "repo": "https://github.com/MichaelH94/MikeHub",
         "lang": "JavaScript / Web"
     },   
