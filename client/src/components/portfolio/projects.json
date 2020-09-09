@@ -97,7 +97,7 @@
     },   
     {
         "name": "MikeHub",
-        "description": "",
+        "description": "A simple social media hub page designed to link people to my various sites/social media accounts.",
         "picture": "https://i.imgur.com/wg8kGfu.png",
         "demo": "https://mikehub.herokuapp.com/",
         "repo": "https://github.com/MichaelH94/MikeHub",
