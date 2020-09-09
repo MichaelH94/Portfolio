@@ -49,7 +49,7 @@ class Portfolio extends Component {
         </div>
         <div className="Sidebar">
         <Button type="home" onClick={() => this.portfolioChange("home")}>Portfolio Home</Button>
-        <Button type="j" onClick={() => this.portfolioChange(11)}>MikeHub</Button>
+        <Button type="j" onClick={() => this.portfolioChange(12)}>MikeHub</Button>
         <Button type="js" onClick={() => this.portfolioChange(0)}>Aestheticize</Button>
         <Button type="js" onClick={() => this.portfolioChange(11)}>zxcvBot</Button> 
         <Button type="js" onClick={() => this.portfolioChange(1)}>Catch-All</Button>
@@ -62,6 +62,7 @@ class Portfolio extends Component {
         <Button type="j" onClick={() => this.portfolioChange(8)}>Connect 3</Button>
         <Button type="j" onClick={() => this.portfolioChange(9)}>Basic Phrases</Button>
         <Button type="j" onClick={() => this.portfolioChange(10)}>Times Table</Button>
+        <Button type="j" onClick={() => this.portfolioChange(13)}>Brain Tester</Button>
         </div>
         
         </div>

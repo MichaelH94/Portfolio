@@ -99,10 +99,18 @@
         "name": "MikeHub",
         "description": "",
         "picture": "https://i.imgur.com/g0vFlw0.png",
-        "demo": "false",
+        "demo": false,
         "repo": "https://github.com/MichaelH94/MikeHub",
         "lang": "JavaScript / Web"
     },   
+    {
+        "name": "Brain Trainer",
+        "description": "A simple Java/Android math game! How high can you go? Instructions: Start the game Within the 30 second time limit, try to correctly solve as many math problems as you can! The game currently has both addition and subtraction. It keeps track of the user's correct (and total) problems. After finishing, the game can be restarted.",
+        "picture": "https://i.imgur.com/NKuZDYW.gif",
+        "demo": false,
+        "repo": "https://github.com/MichaelH94/Brain-Trainer",
+        "lang": "Java / Android"
+    },     
     {
         "name": "",
         "description": "",
