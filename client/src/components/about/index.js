@@ -16,13 +16,14 @@ class About extends Component {
                 <div className="Name">Michael Haggard </div>
                 <div className="About-subheaders"> 
                 Full Stack Web Developer <br />
-                Austin Area </div>
+                Ponca City, OK</div>
             </div>
 
             <div className="About-words">
             <p>
-            I'm a 27 year old independent programmer currently based out of Northern Oklahoma. 
-            I have countless hours of independent study, an Associate's in Computer Science 
+            I'm a 27 year old independent programmer currently based out of Northern Oklahoma.
+            I am currently attending Oklahoma State University for Computer Science.
+            In addition, I have countless hours of independent study, an Associate's in Computer Science 
             from Northern Oklahoma College, 
             and have been through a rigorous Full Stack Web Development Bootcamp at the University of Kansas. 
             As a developer, I'm driven by challenge over everything.
@@ -36,15 +37,15 @@ class About extends Component {
             Most of my free time is spent with my children (when they're around), but my other hobbies include a passionate 
             love for music, creative writing, an enjoyment of history, 
             cartography and worldbuilding, and, as standard among programmers, I enjoy video games. 
-            I've gone through a lot of changes in the last year, but I'm constantly growing and becoming a better man.<br />
+            You can check out my writing <a href="https://teamzxcv.com">here</a>.<br />
             
             </p>
             </div>
 
             <div className="About-bottom">
-            <img src={img2} alt="Oldest Son & Daughter" />
-            <img src={img1} alt="All 3 Boys in the Pool" />
-            <img src={img3} alt="All 4 Children" />
+            <img src={img2} alt="Me with my twins and daughter" />
+            <img src={img1} alt="All 4 children" />
+            <img src={img3} alt="Me with my daughter" />
             </div>
             
         </div>
