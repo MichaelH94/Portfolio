@@ -17,14 +17,14 @@
     "heroku-postbuild": "npm run build"
   },
   "resolutions": {
-    "terser": "3.14.1"
+    "terser": "4.8.1"
   },
   "author": "Michael J Haggard",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
     "nodemon": "^1.19.4",
-    "terser": "3.14.1"
+    "terser": "4.8.1"
   },
   "dependencies": {
     "axios": "^0.19.2",
